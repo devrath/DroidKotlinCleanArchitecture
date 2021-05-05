@@ -58,7 +58,7 @@ dependencies {
     implementation(Libraries.okHttpLoggingInterceptor)
 
     //TODO: change this
-    implementation ("androidx.fragment:fragment-ktx:1.2.5")
+    implementation ("androidx.fragment:fragment-ktx:1.3.3")
 
     // Unit/Android tests dependencies
     testImplementation(TestLibraries.junit4)
