@@ -1,6 +1,7 @@
 package com.example.myapplication.core.di
 
 import com.example.myapplication.BuildConfig
+import com.example.myapplication.core.repositories.MoviesRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -35,6 +36,8 @@ class ApplicationModule {
         return okHttpClientBuilder.build()
     }
 
-
+    @Provides
+    @Singleton
+    fun provideMoviesRepository(dataSource: MoviesRepository.Network): MoviesRepository = dataSource
 
 }

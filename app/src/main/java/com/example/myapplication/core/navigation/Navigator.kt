@@ -1,6 +1,7 @@
 package com.example.myapplication.core.navigation
 
 import android.content.Context
+import android.view.View
 import com.example.myapplication.features.movies.MoviesActivity
 import com.example.myapplication.features.login.Authenticator
 import com.example.myapplication.features.login.LoginActivity
@@ -21,4 +22,5 @@ class Navigator @Inject constructor(private val authenticator: Authenticator) {
 
     private fun showMovies(context: Context) = context.startActivity(MoviesActivity.callingIntent(context))
 
+    class Extras(val transitionSharedElement: View)
 }
