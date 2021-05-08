@@ -1,5 +1,6 @@
 package com.example.myapplication.core.network
 
+import com.example.myapplication.models.MovieEntity
 import retrofit2.Call
 import retrofit2.http.GET
 
@@ -11,6 +12,6 @@ interface MoviesApi {
         private const val MOVIE_DETAILS = "movie_0{$PARAM_MOVIE_ID}.json"
     }
 
-   /* @GET(MOVIES)
-    fun movies(): Call<List<MovieEntity>>*/
+    @GET(MOVIES)
+    fun movies(): Call<List<MovieEntity>>
 }
