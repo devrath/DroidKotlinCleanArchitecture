@@ -11,6 +11,6 @@ interface MoviesApi {
         private const val MOVIE_DETAILS = "movie_0{$PARAM_MOVIE_ID}.json"
     }
 
-    @GET(MOVIES)
-    fun movies(): Call<List<MovieEntity>>
+   /* @GET(MOVIES)
+    fun movies(): Call<List<MovieEntity>>*/
 }
