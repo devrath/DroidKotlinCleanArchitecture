@@ -1,4 +1,4 @@
-package com.example.myapplication.features.movies.moviesList
+       package com.example.myapplication.features.movies.moviesList
 
 import android.view.View
 import android.view.ViewGroup

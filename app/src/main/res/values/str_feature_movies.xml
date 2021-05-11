@@ -1,5 +1,5 @@
 <resources>
-    <string name="movies_screen_title">Movies</string>
+    <string name="movies_screen_title">Droid List</string>
     <string name="movie_details_screen_title">Movie Details</string>
     <string name="movie_details_summary">Summary</string>
     <string name="movie_details_cast">Cast</string>

@@ -24,6 +24,8 @@ class MoviesFragment : BaseFragment() {
 
     @Inject
     lateinit var navigator: Navigator
+    // Using the navigator class we can use it to handle navigation between the activities
+
     @Inject
     lateinit var moviesAdapter: MoviesAdapter
 
