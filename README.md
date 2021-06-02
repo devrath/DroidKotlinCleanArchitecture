@@ -13,6 +13,7 @@
 * **`By using kotlin programming language, This is a clean architecture developed to demonstrate the usage of clean code`** 
 
 ---
+![Banner](https://github.com/devrath/DroidKotlinCleanArchitecture/blob/main/images/block_diagram.png)
 
 
 <p align="center">
